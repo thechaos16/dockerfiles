@@ -9,5 +9,5 @@ RUN echo "export LIBRARY_PATH=/usr/local/cuda/lib64/stubs">> /etc/profile
 RUN echo "export LANG=C.UTF-8">> /etc/profile
 
 RUN pip install keras
-RUN pip install http://download.pytorch.org/whl/cu80/torch-0.1.12.post2-cp35-cp35m-linux_x86_64.whl
+RUN pip install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
 RUN pip install torchvision
